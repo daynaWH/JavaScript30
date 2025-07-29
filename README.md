@@ -9,7 +9,7 @@ Completing JavaScript 30 Day Challenge by [WesBos](https://wesbos.com/).
 | No  | Title                                               | Status             | Demo Link                                                                                   |
 | --- | --------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------- |
 | 01  | JavaScript Drum Kit                                 | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/01%20-%20JavaScript%20Drum%20Kit/) |
-| 02  | JS & CSS Clock                                      |                    | [Link](http://example.com)                                                                  |
+| 02  | JS & CSS Clock                                      | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/02%20-%20JS%20and%20CSS%20Clock/)  |
 | 03  | CSS Variables                                       |                    | [Link](http://example.com)                                                                  |
 | 04  | Array Cardio Day 1                                  |                    | [Link](http://example.com)                                                                  |
 | 05  | Flex Panel Gallery                                  |                    | [Link](http://example.com)                                                                  |

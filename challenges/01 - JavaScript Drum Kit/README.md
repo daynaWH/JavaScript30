@@ -11,19 +11,19 @@ A simple drum kit where users can press keyboard keys to trigger different drum 
 ## Notes
 
 -   If the audio element does not exist, return early to avoid errors:
-    -   ```
-        if (!audio) return;
-        ```
+    ```js
+    if (!audio) return;
+    ```
 -   Use **currentTime property** to rewind the audio to the start before playing & prevent audio from not playing when pressed multiple times:
-    -   ```
-        audio.currentTime = 0;
-        ```
+    ```js
+    audio.currentTime = 0;
+    ```
 -   Use the **transitionend** event to automatically remove the "playing" class once the CSS transition ends, instead of `keyup`:
-    -   ```
-        keys.forEach((key) => {
-            key.addEventListener("transitionend", function (e) {
-                if (e.propertyName !== "transform") return;
-                this.classList.remove("playing");
-            });
+    ```js
+    keys.forEach((key) => {
+        key.addEventListener("transitionend", function (e) {
+            if (e.propertyName !== "transform") return;
+            this.classList.remove("playing");
         });
-        ```
+    });
+    ```
