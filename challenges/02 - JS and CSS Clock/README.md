@@ -1,6 +1,6 @@
 # 02 - JS and CSS Clock
 
-![](js-css-clock.mov)
+https://github.com/user-attachments/assets/bd9cb91d-ff4e-4cbf-9a81-df0363ea7ec3
 
 **Date**: 2025/07/28
 
