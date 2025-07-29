@@ -1,5 +1,7 @@
 # 03 - CSS Variables
 
+https://github.com/user-attachments/assets/e0094123-0fa2-49f1-9118-fde476448894
+
 **Date**: 2025/07/29
 
 ## Overview
