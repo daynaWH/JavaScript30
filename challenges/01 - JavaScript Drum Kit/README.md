@@ -4,6 +4,10 @@
 
 **Date**: 2025/07/26
 
+## Overview
+
+A simple drum kit where users can press keyboard keys to trigger different drum sounds and visual effects. Each key is mapped to an audio clip, and animations are added for interactivity.
+
 ## Notes
 
 -   If the audio element does not exist, return early to avoid errors:
