@@ -17,8 +17,7 @@ A series of JavaScript exercises focused on practicing the following array metho
         (a, b) => b.passed - b.year - (a.passed - a.year)
     );
     ```
-
-        - Alternative approach for better readability
+    - Alternative approach for better readability
         ```js
         inventors.sort((a, b) => {
             const lastInventor = a.passed - a.year;
@@ -32,11 +31,10 @@ A series of JavaScript exercises focused on practicing the following array metho
     ```js
     const lastNameOrder = people.sort((a, b) => (a > b ? 1 : -1));
     ```
-
-        - Issues:
-            - Doesn’t actually parse the last names
-            - Doesn't account for extra spaces, case sensitivity, sorting by first name when last names are identical
-        - A better alternative solution:
+    - Issues:
+      - Doesn’t actually parse the last names
+      - Doesn't account for extra spaces, case sensitivity, sorting by first name when last names are identical
+    - A better alternative solution:
         ```js
         const alpha = people.sort((lastOne, nextOne) => {
             const [aLast, aFirst] = lastOne.split(", ");
