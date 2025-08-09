@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Type Ahead 👀</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="https://fav.farm/🔥" />
+    </head>
+    <body>
+        <form class="search-form">
+            <input type="text" class="search" placeholder="City or State" />
+            <ul class="suggestions">
+                <li>Filter for a city</li>
+                <li>or a state</li>
+            </ul>
+        </form>
+        <script>
+            const endpoint =
+                "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json";
+
+            const cities = [];
+            const searchInput = document.querySelector(".search");
+            const suggestions = document.querySelector(".suggestions");
+
+            // Return fetched data
+            const promise = fetch(endpoint); // returns promise, not the data yet => use .then
+            promise
+                .then((blob) => blob.json()) // returns response - the data that comes back from the fetch doesn't know what kind of data it is
+                // even if we explicitly know that it's json, the blob has to be converted from the raw data into json => blob.json - returns another promise => .then
+                .then((data) => cities.push(...data)); // returns the raw data > push data into cities[]
+
+            // When type in the input > A function that takes the cities array and filter down into a subset where you can then listen for it
+            function findMatches(wordToMatch, cities) {
+                // pass in the cities array - pass in the data into this function that's going to filter
+                return cities.filter((place) => {
+                    // figure out if the city/state matches what was searched
+                    // look into the cities array and return smaller arrays that match the regex
+                    const regex = new RegExp(wordToMatch, "gi");
+                    return place.city.match(regex) || place.state.match(regex);
+                });
+            }
+
+            // Function to add commas in population
+            function numberWithCommas(x) {
+                return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Display function - called whenever the value changes using findMatches()
+            function displayMatches() {
+                const matchArray = findMatches(this.value, cities);
+                // loop over the array
+                const html = matchArray
+                    .map((place) => {
+                        // highlight the actual searched terms
+                        const regex = new RegExp(this.value, "gi");
+                        const cityName = place.city.replace(
+                            regex,
+                            `<span class="hl">${this.value}</span>`
+                        );
+                        const stateName = place.state.replace(
+                            regex,
+                            `<span class="hl">${this.value}</span>`
+                        );
+
+                        // return search results
+                        return `
+                      <li>
+                        <span class="name">${cityName}, ${stateName}</span>
+                        <span class="population">${numberWithCommas(
+                            place.population
+                        )}</span>  
+                      </li>
+                    `;
+                    })
+                    .join("");
+                suggestions.innerHTML = html;
+            }
+
+            searchInput.addEventListener("change", displayMatches);
+            searchInput.addEventListener("keyup", displayMatches);
+            // change event only fires when you go off that input - need to click outside to trigger => add another keyup event
+        </script>
+    </body>
+</html>
