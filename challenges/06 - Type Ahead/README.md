@@ -1,4 +1,8 @@
-# 03 - CSS Variables
+# 06 - Type Ahead
+
+
+https://github.com/user-attachments/assets/2ae4d3e0-2f13-4aa2-be1b-5d1381d4f394
+
 
 **Date**: 2025/08/08
 
@@ -21,14 +25,14 @@ A dynamic, real-time search feature that filters and displays city and state mat
 
 -   Use `.filter()` + dynamic RegExp to match input with city or state names (case-insensitive):
 
-        ```js
-        function findMatches(wordToMatch, cities) {
-            return cities.filter((place) => {
-                const regex = new RegExp(wordToMatch, "gi");
-                return place.city.match(regex) || place.state.match(regex);
-            });
-        }
-        ```
+    ```js
+    function findMatches(wordToMatch, cities) {
+        return cities.filter((place) => {
+            const regex = new RegExp(wordToMatch, "gi");
+            return place.city.match(regex) || place.state.match(regex);
+        });
+    }
+    ```
 
 -   `change` event only fires upon clicking outside => add an additional `keyup` event for instant feedback as the user types:
 
