@@ -23,18 +23,17 @@
             const suggestions = document.querySelector(".suggestions");
 
             // Return fetched data
-            const promise = fetch(endpoint); // returns promise, not the data yet => use .then
+            const promise = fetch(endpoint); // returns a Promise that resolves to a Response object, not the data yet => use .then to extract json
             promise
-                .then((blob) => blob.json()) // returns response - the data that comes back from the fetch doesn't know what kind of data it is
-                // even if we explicitly know that it's json, the blob has to be converted from the raw data into json => blob.json - returns another promise => .then
-                .then((data) => cities.push(...data)); // returns the raw data > push data into cities[]
+                .then((response) => response.json()) // returns response
+                // even if we explicitly know that it's json, the response has to be converted and parsed with .json => response.json - returns another promise => .then
+                .then((data) => cities.push(...data)); // returns the parsed JSON data => push into the cities array
 
-            // When type in the input > A function that takes the cities array and filter down into a subset where you can then listen for it
+            // Function to filter the cities array and return matches based on the user's input
+            // pass in the data (cities array) into this function that's going to filter
             function findMatches(wordToMatch, cities) {
-                // pass in the cities array - pass in the data into this function that's going to filter
                 return cities.filter((place) => {
-                    // figure out if the city/state matches what was searched
-                    // look into the cities array and return smaller arrays that match the regex
+                    // return items where the city or state matches the input (case-insensitive)
                     const regex = new RegExp(wordToMatch, "gi");
                     return place.city.match(regex) || place.state.match(regex);
                 });
@@ -48,7 +47,7 @@
             // Display function - called whenever the value changes using findMatches()
             function displayMatches() {
                 const matchArray = findMatches(this.value, cities);
-                // loop over the array
+                // loop over matched results and generate HTML
                 const html = matchArray
                     .map((place) => {
                         // highlight the actual searched terms
@@ -68,7 +67,7 @@
                         <span class="name">${cityName}, ${stateName}</span>
                         <span class="population">${numberWithCommas(
                             place.population
-                        )}</span>  
+                        )}</span>
                       </li>
                     `;
                     })
