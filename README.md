@@ -13,7 +13,7 @@ Completing JavaScript 30 Day Challenge by [WesBos](https://wesbos.com/).
 | 03  | CSS Variables                                       | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/03%20-%20CSS%20Variables/)         |
 | 04  | Array Cardio Day 1                                  | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/04%20-%20Array%20Cardio%20Day%201) |
 | 05  | Flex Panel Gallery                                  | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/05%20-%20Flex%20Panel%20Gallery/)  |
-| 06  | Type Ahead                                          |                    | [Link](http://example.com)                                                                  |
+| 06  | Type Ahead                                          | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/06%20-%20Type%20Ahead/)            |
 | 07  | Array Cardio Day 2                                  |                    | [Link](http://example.com)                                                                  |
 | 08  | Fun with HTML5 Canvas                               |                    | [Link](http://example.com)                                                                  |
 | 09  | Dev Tools Domination                                |                    | [Link](http://example.com)                                                                  |
