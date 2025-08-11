@@ -6,35 +6,35 @@ Completing JavaScript 30 Day Challenge by [WesBos](https://wesbos.com/).
 
 ## Challenge Tracking
 
-| No  | Title                                               | Status             | Demo Link                                                                                   |
-| --- | --------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------- |
-| 01  | JavaScript Drum Kit                                 | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/01%20-%20JavaScript%20Drum%20Kit/) |
-| 02  | JS & CSS Clock                                      | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/02%20-%20JS%20and%20CSS%20Clock/)  |
-| 03  | CSS Variables                                       | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/03%20-%20CSS%20Variables/)         |
-| 04  | Array Cardio Day 1                                  | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/04%20-%20Array%20Cardio%20Day%201) |
-| 05  | Flex Panel Gallery                                  | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/05%20-%20Flex%20Panel%20Gallery/)  |
-| 06  | Type Ahead                                          | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/06%20-%20Type%20Ahead/)            |
-| 07  | Array Cardio Day 2                                  |                    | [Link](http://example.com)                                                                  |
-| 08  | Fun with HTML5 Canvas                               |                    | [Link](http://example.com)                                                                  |
-| 09  | Dev Tools Domination                                |                    | [Link](http://example.com)                                                                  |
-| 10  | Hold Shift and Check Checkboxes                     |                    | [Link](http://example.com)                                                                  |
-| 11  | Custom Video Player                                 |                    | [Link](http://example.com)                                                                  |
-| 12  | Key Sequence Detection                              |                    | [Link](http://example.com)                                                                  |
-| 13  | Slide in on Scroll                                  |                    | [Link](http://example.com)                                                                  |
-| 14  | JavaScript References VS Copying                    |                    | [Link](http://example.com)                                                                  |
-| 15  | LocalStorage                                        |                    | [Link](http://example.com)                                                                  |
-| 16  | Mouse Move Shadow                                   |                    | [Link](http://example.com)                                                                  |
-| 17  | Sort Without Articles                               |                    | [Link](http://example.com)                                                                  |
-| 18  | Adding Up Times with Reduce                         |                    | [Link](http://example.com)                                                                  |
-| 19  | Webcam Fun                                          |                    | [Link](http://example.com)                                                                  |
-| 20  | Speech Detection                                    |                    | [Link](http://example.com)                                                                  |
-| 21  | Geolocation                                         |                    | [Link](http://example.com)                                                                  |
-| 22  | Follow Along [Link](http://example.com) Highlighter |                    | [Link](http://example.com)                                                                  |
-| 23  | Speech Synthesis                                    |                    | [Link](http://example.com)                                                                  |
-| 24  | Sticky Nav                                          |                    | [Link](http://example.com)                                                                  |
-| 25  | Event Capture, Propagation, Bubbling and Once       |                    | [Link](http://example.com)                                                                  |
-| 26  | Stripe Follow Along Nav                             |                    | [Link](http://example.com)                                                                  |
-| 27  | Click and Drag                                      |                    | [Link](http://example.com)                                                                  |
-| 28  | Video Speed Controller                              |                    | [Link](http://example.com)                                                                  |
-| 29  | Countdown Timer                                     |                    | [Link](http://example.com)                                                                  |
-| 30  | Whack A Mole                                        |                    | [Link](http://example.com)                                                                  |
+| No  | Title                                         | Status             | Demo Link                                                                                    |
+| --- | --------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------- |
+| 01  | JavaScript Drum Kit                           | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/01%20-%20JavaScript%20Drum%20Kit/)  |
+| 02  | JS & CSS Clock                                | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/02%20-%20JS%20and%20CSS%20Clock/)   |
+| 03  | CSS Variables                                 | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/03%20-%20CSS%20Variables/)          |
+| 04  | Array Cardio Day 1                            | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/04%20-%20Array%20Cardio%20Day%201)  |
+| 05  | Flex Panel Gallery                            | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/05%20-%20Flex%20Panel%20Gallery/)   |
+| 06  | Type Ahead                                    | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/06%20-%20Type%20Ahead/)             |
+| 07  | Array Cardio Day 2                            | :white_check_mark: | [Link](https://daynawh.github.io/JavaScript30/challenges/07%20-%20Array%20Cardio%20Day%202/) |
+| 08  | Fun with HTML5 Canvas                         |                    | [Link](http://example.com)                                                                   |
+| 09  | Dev Tools Domination                          |                    | [Link](http://example.com)                                                                   |
+| 10  | Hold Shift and Check Checkboxes               |                    | [Link](http://example.com)                                                                   |
+| 11  | Custom Video Player                           |                    | [Link](http://example.com)                                                                   |
+| 12  | Key Sequence Detection                        |                    | [Link](http://example.com)                                                                   |
+| 13  | Slide in on Scroll                            |                    | [Link](http://example.com)                                                                   |
+| 14  | JavaScript References VS Copying              |                    | [Link](http://example.com)                                                                   |
+| 15  | LocalStorage                                  |                    | [Link](http://example.com)                                                                   |
+| 16  | Mouse Move Shadow                             |                    | [Link](http://example.com)                                                                   |
+| 17  | Sort Without Articles                         |                    | [Link](http://example.com)                                                                   |
+| 18  | Adding Up Times with Reduce                   |                    | [Link](http://example.com)                                                                   |
+| 19  | Webcam Fun                                    |                    | [Link](http://example.com)                                                                   |
+| 20  | Speech Detection                              |                    | [Link](http://example.com)                                                                   |
+| 21  | Geolocation                                   |                    | [Link](http://example.com)                                                                   |
+| 22  | Follow Along Link Highlighter                 |                    | [Link](http://example.com)                                                                   |
+| 23  | Speech Synthesis                              |                    | [Link](http://example.com)                                                                   |
+| 24  | Sticky Nav                                    |                    | [Link](http://example.com)                                                                   |
+| 25  | Event Capture, Propagation, Bubbling and Once |                    | [Link](http://example.com)                                                                   |
+| 26  | Stripe Follow Along Nav                       |                    | [Link](http://example.com)                                                                   |
+| 27  | Click and Drag                                |                    | [Link](http://example.com)                                                                   |
+| 28  | Video Speed Controller                        |                    | [Link](http://example.com)                                                                   |
+| 29  | Countdown Timer                               |                    | [Link](http://example.com)                                                                   |
+| 30  | Whack A Mole                                  |                    | [Link](http://example.com)                                                                   |
